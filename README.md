@@ -6,7 +6,6 @@ How are the cookies stored? All currently-supported browsers store cookies in a 
 # Install
 
 #!python
-
 pip install chrome_cookies
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
@@ -14,15 +13,13 @@ pip install chrome_cookies
 # Import
 
 #!python
-
 from chrome_cookies import Cookies
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
-# How to use
+| How to use |
 
 #!python
-
 from chrome_cookies import Cookies
 
 chrome_cookies = Cookies() # Create an instance of the Cookies class
@@ -33,10 +30,9 @@ chrome_cookies.view_cookies() # Use the view_cookies() method to view cookies
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 
-# for example
+for example
 
 #!python
-
 from chrome_cookies import Cookies
 
 a = chrome_cookies = Cookies()

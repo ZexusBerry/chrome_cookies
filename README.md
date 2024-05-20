@@ -16,20 +16,22 @@ pip install chrome_cookies
 
 #!python
 
+```
 from chrome_cookies import Cookies
-
+```
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 # | How to use |
 
 #!python
 
+```
 from chrome_cookies import Cookies
 
 chrome_cookies = Cookies() # Create an instance of the Cookies class
 
 chrome_cookies.view_cookies() # Use the view_cookies() method to view cookies
-
+```
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
@@ -38,10 +40,11 @@ chrome_cookies.view_cookies() # Use the view_cookies() method to view cookies
 
 #!python
 
+```
 from chrome_cookies import Cookies
 
 a = chrome_cookies = Cookies()
 b = chrome_cookies.view_cookies()
 print({a}, {b})
-
+```
 -----------------------------------------------------------------------------------------------------------------------------------------------------

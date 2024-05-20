@@ -5,17 +5,23 @@ Which browsers are supported? Chrome, Firefox, LibreWolf, Opera, Opera GX, Edge,
 How are the cookies stored? All currently-supported browsers store cookies in a sqlite database in your home directory.
 # Install
 
+#!python
+
 pip install chrome_cookies
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 # Import
 
+#!python
+
 from chrome_cookies import Cookies
 
 -----------------------------------------------------------------------------------------------------------------------------------------------------
 
 # How to use
+
+#!python
 
 from chrome_cookies import Cookies
 
@@ -28,6 +34,8 @@ chrome_cookies.view_cookies() # Use the view_cookies() method to view cookies
 
 
 # for example
+
+#!python
 
 from chrome_cookies import Cookies
 

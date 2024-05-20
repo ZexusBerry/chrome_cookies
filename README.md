@@ -13,7 +13,7 @@ How are the cookies stored? All currently-supported browsers store cookies in a 
 
 # Import
 
-#!python
+> #!python
 
 > from chrome_cookies import Cookies
 
